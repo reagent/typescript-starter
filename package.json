@@ -15,7 +15,7 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:coverage": "yarn test --coverage",
     "prebuild": "rimraf dist/",
     "build": "tsc --build tsconfig.build.json"
