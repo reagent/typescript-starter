@@ -7,6 +7,12 @@
     "email": "github@the-reagans.com"
   },
   "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "useTabs": false,
+    "printWidth": 80,
+    "tabWidth": 2
+  },
   "scripts": {
     "prebuild": "rimraf dist/",
     "build": "tsc --build tsconfig.build.json"
@@ -14,6 +20,7 @@
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
     "@types/node": "^20.8.10",
+    "prettier": "^3.0.3",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
